@@ -1,7 +1,15 @@
 {
-    "name": "SymfonyForm",
+    "name": "nikulinsasa/SymfonyForm",
+    "version": "1.1",
     "type": "project",
     "description": "Symfony generator of forms without symfony core",
+    "authors": [
+        {
+            "name": "alexandr",
+            "email": "n_s87@mail.ru",
+            "role": "Developer"
+        }
+    ],
     "require": {
         "php": ">=5.3.3",
         "symfony/Form": "2.4",
@@ -10,5 +18,11 @@
         "symfony/Templating": "2.4",
         "symfony/Translation": "2.*",
         "symfony/Validator": "2.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "InfoClient\\": ""
+        }
     }
 }
+
