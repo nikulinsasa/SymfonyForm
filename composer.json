@@ -1,5 +1,5 @@
 {
-    "name": "nikulinsasa/SymfonyForm",
+    "name": "nikulinsasa/symfony-form",
     "version": "1",
     "description": "Symfony generator of forms without symfony core",
     "authors": [
